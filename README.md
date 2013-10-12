@@ -1,4 +1,4 @@
 Term
 ====
 
-Create simple commandline access to java methods within classes.
+Create simple command line access to java methods within classes.
