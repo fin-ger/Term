@@ -6,7 +6,7 @@ Create simple command line access to java methods within classes.
 Main config
 ===========
 
-´´´java
+```java
 @Termconf (usage           = "<usage string>",   // optional
 	   example         = "<example string>", // optional
 	   ops_width       = 30, 	      	 // optional:
@@ -23,12 +23,12 @@ Main config
 						 //   should be ignored by Term
 						 // (default: {"main"})
           )
-´´´
+```
 
 Method config
 =============
 
-´´´java
+```java
 @Term,eth (short_param     = "t",		   // one character
 	   description     = "method description",
 	   des_form        = false, 	      	   // optional:
@@ -41,7 +41,7 @@ Method config
 						   // description printed in
 						   // help message
           )
-´´´
+```
 
 Example
 =======
@@ -83,6 +83,7 @@ public class Example {
 ```
 
 ### Help message output ###
+
    Usage: java Example [option] [arguments]
    
    Available options:
@@ -96,6 +97,7 @@ public class Example {
      java Example -t ha 5
 
 ### Invoke a method ###
+
    bin $ java Example --cat hey ho
    heyho
    bin $
