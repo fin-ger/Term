@@ -100,7 +100,6 @@ public class Example {
       java Example -t ha 5
 
 ### Invoke a method ###
-
     bin $ java Example --cat hey ho
     heyho
     bin $
