@@ -5,7 +5,7 @@ public class Example {
 		Term.init ("Example", args);
 	}
 	
-	@Termdata (short_param = "t", description = "This is a test method",
+	@Termmeth (short_param = "t", description = "This is a test method",
 			arguments = { "TEXT", "REPETITIONS" })
 	public static void test (String a, int b) {
 		String res = "";
@@ -15,13 +15,13 @@ public class Example {
 		System.out.println (res);
 	}
 	
-	@Termdata (short_param = "c", description = "Concatenate two strings",
+	@Termmeth (short_param = "c", description = "Concatenate two strings",
 			arguments = { "TEXT", "TEXT" })
 	public static String cat (String a, String b) {
 		return a + b;
 	}
 	
-	@Termdata (short_param = "m",
+	@Termmeth (short_param = "m",
 			description = "Multiplicate two integer values", des_form = false,
 			arguments = { "INT", "INT" })
 	public static int mul (int a, int b) {

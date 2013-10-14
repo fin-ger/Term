@@ -119,12 +119,12 @@ public class Term {
 		for (int i = 0; i < methods.length - 9; i++) {
 			if (!Arrays.toString (CONF.ignored_methods ()).contains (
 					methods[i].getName ())) {
-				Termdata meta =
-						(Termdata) methods[i].getAnnotation (Termdata.class);
+				Termmeth meta =
+						(Termmeth) methods[i].getAnnotation (Termmeth.class);
 				
-				if (!methods[i].isAnnotationPresent (Termdata.class)) {
+				if (!methods[i].isAnnotationPresent (Termmeth.class)) {
 					System.err
-					.println ("ERROR: No Termdata present for method \""
+					.println ("ERROR: No Termmeth present for method \""
 							+ methods[i].getName () + "\"!");
 					System.exit (1);
 				}
@@ -206,12 +206,12 @@ public class Term {
 		for (int i = 0; i < methods.length - 9; i++) {
 			if (!Arrays.toString (CONF.ignored_methods ()).contains (
 					methods[i].getName ())) {
-				Termdata meta =
-						(Termdata) methods[i].getAnnotation (Termdata.class);
+				Termmeth meta =
+						(Termmeth) methods[i].getAnnotation (Termmeth.class);
 				
-				if (!methods[i].isAnnotationPresent (Termdata.class)) {
+				if (!methods[i].isAnnotationPresent (Termmeth.class)) {
 					System.err
-					.println ("ERROR: No Termdata present for method \""
+					.println ("ERROR: No Termmeth present for method \""
 							+ methods[i].getName () + "\"!");
 					System.exit (1);
 				}
