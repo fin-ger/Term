@@ -23,13 +23,16 @@ Main config
                                                  //   should be ignored by Term
                                                  // (default: {"main"})
           )
+public class myclass {
+    ...
+}
 ```
 
 Method config
 =============
 
 ```java
-@Term,eth (short_param = "t",                  // one character
+@Termmeth (short_param = "t",                  // one character
            description = "method description",
            des_form    = false,                // optional:
                                                //   whether to format
@@ -41,6 +44,7 @@ Method config
                                                // description printed in
                                                // help message
           )
+public static void ...
 ```
 
 Example
