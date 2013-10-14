@@ -18,7 +18,7 @@ Main config
                                                  //   terminal for help message
                                                  // (default: 80)
            ignored_methods = {"main", "init"}    // optional:
-                                                 //   Sting array containing
+                                                 //   String array containing
                                                  //   names of methods which
                                                  //   should be ignored by Term
                                                  // (default: {"main"})
