@@ -1,7 +1,7 @@
 Term
 ====
 
-Create simple command line access to java methods within classes.
+Create simple command line access to java methods inside a specific class.
 
 Main config
 ===========
