@@ -1,3 +1,5 @@
+import github.fin_ger.term.*;
+
 @Termconf (usage   = "java Example [option] [arguments]",
 	   example = "java Example -t ha 5")
 public class Example {

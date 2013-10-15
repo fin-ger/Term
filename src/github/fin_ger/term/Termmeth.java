@@ -1,3 +1,5 @@
+package github.fin_ger.term;
+
 import java.lang.annotation.*;
 
 @Retention (RetentionPolicy.RUNTIME)
